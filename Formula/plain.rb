@@ -1,7 +1,7 @@
 class Plain < Formula
   desc "Compile, test and deploy EVM smart contracts"
   homepage "https://getplain.org"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   livecheck do
@@ -11,19 +11,19 @@ class Plain < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/backmeupplz/plain/releases/download/v0.4.1/plain-aarch64-apple-darwin.tar.gz"
-      sha256 "16b3f46130e4fdf228f5349c34811a36e9c99c631ae9af4a0da09270c1c77cba"
+      url "https://github.com/backmeupplz/plain/releases/download/v0.5.0/plain-aarch64-apple-darwin.tar.gz"
+      sha256 "e2d582be8cb015f31e3c678476160a7bd08c32f4b11f687c26b0a4bbf475e2ab"
     end
     on_intel do
-      url "https://github.com/backmeupplz/plain/releases/download/v0.4.1/plain-x86_64-apple-darwin.tar.gz"
-      sha256 "4095505d67247f79de41df5ab4eff79f80632992d3f404cc87277175d223922f"
+      url "https://github.com/backmeupplz/plain/releases/download/v0.5.0/plain-x86_64-apple-darwin.tar.gz"
+      sha256 "c7d1cbd9b1ca8f35ee0fc8e8a9e0647f3c5890d7848531d1c57d4c48e6281988"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/backmeupplz/plain/releases/download/v0.4.1/plain-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ccf1ed2fa71cb7c8963c0518d10d81c5cae69f20c72fb6bfef126c4b80a4be23"
+      url "https://github.com/backmeupplz/plain/releases/download/v0.5.0/plain-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "677550a42c7b240d9b678ce82fa23e6bbbd70dd67156d8068d9409c61a071bff"
     end
   end
 
